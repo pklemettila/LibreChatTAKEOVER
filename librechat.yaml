@@ -53,7 +53,7 @@ endpoints:
       models:
         default: [
           'openai/gpt-4.1',
-          'valkyrie-49b-v1',
+          'thedrummer/valkyrie-49b-v1'
           'deepseek/deepseek-r1-0528',
           'google/gemini-2.0-flash-001',
           'anthropic/claude-3.7-sonnet',
@@ -63,7 +63,7 @@ endpoints:
           'meta-llama/llama-3.1-70b-instruct',
 
         ]
-        fetch: true  # CHANGED: Use specific models, don't fetch from API
+        fetch: false  # CHANGED: Use specific models, don't fetch from API
       titleConvo: true
       titleModel: 'openai/gpt-4o-mini'  
       dropParams: ['stop']
