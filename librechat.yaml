@@ -21,6 +21,11 @@ interface:
   modelSelect: true
   parameters: true
   sidePanel: true
+  modelInfo: true  # Shows model descriptions and details
+  exclude: [
+        '*free*',
+        '*:free'
+      ]
   presets: true
   prompts: true
   bookmarks: false
