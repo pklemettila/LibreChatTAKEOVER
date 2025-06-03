@@ -99,9 +99,9 @@ endpoints:
           'meta-llama/llama-3.1-70b-instruct',
 
         ]
-        fetch: false  # CHANGED: Use specific models, don't fetch from API
+        fetch: true  # CHANGED: Use specific models, don't fetch from API
       titleConvo: true
-      titleModel: 'openai/gpt-4o-mini'  # CHANGED: Use valid model name
+      titleModel: 'openai/gpt-4o-mini'  
       dropParams: ['stop']
       modelDisplayLabel: 'OpenRouter'
       iconURL: 'https://openrouter.ai/favicon.ico'
