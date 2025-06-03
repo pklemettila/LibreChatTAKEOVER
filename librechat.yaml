@@ -105,3 +105,4 @@ endpoints:
       dropParams: ['stop']
       modelDisplayLabel: 'OpenRouter'
       iconURL: 'https://openrouter.ai/favicon.ico'
+      showModelDescription: true
